@@ -1,0 +1,20 @@
+.main-form{
+    padding: 70px 50px;
+    text-align: center;
+    margin-bottom: 30px;  
+}
+.main-form input{
+    background: #fff;
+    border: 0;
+}
+.main-form input[type=submit]{
+    flex: 1;
+    background: #ccc;
+    border: 1px solid #ccc;
+    color:#fff;
+    transition: 0.5s ease all;
+} 
+.main-form input[type=submit]:hover{
+    background-color: #fff;
+    color: #000;
+}
